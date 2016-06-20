@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+
+
+#container{
+    padding: 0 80px;
+    background: #080808;
+    
+}
+
+.logo{
+    width: 90px;
+    
+}
+
+.chname{
+    writing-mode: tb-rl;
+    font-size: 0.6em;
+    letter-spacing: 20px;
+    float: right;
+}
+
+
+header{
+    color: #AFAFAF;
+    height: 100vh;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+
+.enname{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+    float: left;
+    position: relative;
+ 
+    
+}
+
+.enname::before{
+   
+    content: "-";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+
+
+.mid{
+
+  box-sizing: border-box;
+  padding-top:25vh;
+}
+
+
+.btm{
+  box-sizing: border-box;
+  padding-top:40vh;
+}
+
+.arrow{
+    width: 40px;
+    float:left
+}
