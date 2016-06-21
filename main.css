@@ -1,11 +1,13 @@
 body{
     margin: 0;
+    
 }
 
 
 #container{
-    padding: 0 80px;
+    padding: 0 130px;
     background: #080808;
+    
     
 }
 
@@ -23,9 +25,11 @@ body{
 
 
 header{
+    
     color: #AFAFAF;
+    background: #080808;
     height: 100vh;
-    padding-top: 50px;
+    padding-top: 80px;
     box-sizing: border-box;
 }
 
@@ -58,12 +62,13 @@ header{
 
 .btm{
   box-sizing: border-box;
-  padding-top:40vh;
+  padding-top:35vh;
 }
 
 .arrow{
     width: 40px;
-    float:left
+    float:left;
+    position: relative;
 }
 
 
@@ -83,4 +88,81 @@ header{
     width: 20px;
     float:right;
     padding: 10px;
+}
+
+
+.wording{
+    width:40vw;
+    color: #9D9D9D;
+    font-size: 0.6em;
+    letter-spacing: 1.4px;
+    font-family: 'Hind Vadodara', sans-serif;
+    padding-top: 100px;
+    line-height: 23px;
+}
+
+
+.enwording{
+    width:40vw;
+    color: #9D9D9D;
+    font-size: 0.6em;
+    letter-spacing: 1.4px;
+    font-family: 'Hind Vadodara', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    line-height: 23px;
+}
+
+
+
+.biotitle{
+    color: #9D9D9D;
+    font-size: .6em;
+    letter-spacing: 1.4px;
+    font-family: 'Hind Vadodara', sans-serif;
+    
+}
+
+
+.bio{
+    padding: 80px 0 0 0 ;
+    height: 100vh;
+    
+
+}
+
+
+
+
+.logo2{
+    padding-right: 0;
+    float: right;
+    width: 90px;
+    opacity:0;
+}
+
+
+.mail{
+    float: right;
+    color: #9D9D9D;
+    font-size: 0.6em;
+    letter-spacing: 1.4px;
+    font-family: 'Hind Vadodara', sans-serif;
+    padding-top: 190px;
+    padding-right: 9vw;
+    
+}
+
+section{
+    background-image:url(img/bg2.png);
+    background-repeat:no-repeat;
+    background-size:30vw;
+    background-position:90% 30vw;
+    
+}
+
+
+.transgraph
+{
+    
 }
