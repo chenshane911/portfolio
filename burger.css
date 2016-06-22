@@ -8,7 +8,7 @@ body.open:before {
 body:before {
   content: "";
   position: absolute;
-  background-color: #2196f3;
+  background-color: #515151;
   width: 100%;
   overflow: hidden;
   top: 0;
@@ -16,7 +16,7 @@ body:before {
   bottom: 0;
   visibility: hidden;
   opacity: 0;
-  transition: all 0.4s ease;
+  transition: all 0.5s ease;
 }
 .burger {
   float: right;
@@ -32,11 +32,11 @@ body:before {
   text-align: center;
   vertical-align: middle;
   transition: all 0.5s ease;
-  border: 2px solid transparent;
+  border: opx solid transparent;
   box-shadow: 0px 0px 8px -2px #333;
 }
 .burger__button.open {
-  border: 2px solid #fff;
+  border: 0px solid #fff;
   box-shadow: none;
 }
 .burger__button__icon {
@@ -106,14 +106,23 @@ body:before {
   font-family:  'Hind Vadodara', sans-serif;
   font-weight: normal;
   transition: all 0.4s ease;
-  border-left: 3px solid transparent;
+  border-left: 0px solid transparent;
   padding-left: 0;
 }
 .burger__menu a:hover {
   padding-left: 30px;
-  border-left: 3px solid #fff;
+  border-left: 0px solid #fff;
 }
 .burger__button.open + .burger__menu li {
   transform: translateX(0);
   visibility: visible;
+}
+
+
+.burger{
+  position: fixed;
+  bottom: 40%;
+  right: 120px;
+ 
+  
 }

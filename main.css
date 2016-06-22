@@ -99,6 +99,7 @@ header{
     font-family: 'Hind Vadodara', sans-serif;
     padding-top: 100px;
     line-height: 23px;
+    white-space: normal;
 }
 
 
@@ -126,8 +127,6 @@ header{
 
 .bio{
     padding: 80px 0 0 0 ;
-    height: 100vh;
-    
 
 }
 
@@ -148,21 +147,64 @@ header{
     font-size: 0.6em;
     letter-spacing: 1.4px;
     font-family: 'Hind Vadodara', sans-serif;
-    padding-top: 190px;
-    padding-right: 9vw;
+    
     
 }
 
-section{
-    background-image:url(img/bg2.png);
-    background-repeat:no-repeat;
-    background-size:30vw;
-    background-position:90% 30vw;
+.biographc{
+    width: 40vw;
+    float:right;
+    top:300px;
+}
+
+
+
+.coummunity{
+    font-family: 'Spinnaker', sans-serif;
+    color: #9D9D9D;
+    font-size: 2em;
+    padding-top:230px;
     
 }
 
 
-.transgraph
-{
+
+footer{
+    color: black;
+}
+
+
+
+
+
+.fndetail{
+    width:40vw;
+    color: #9D9D9D;
+    font-size: 0.6em;
+    letter-spacing: 1.4px;
+    font-family: 'Hind Vadodara', sans-serif;
+    padding-top: 100px;
+    line-height: 23px;
+    white-space: normal;
+}
+
+
+
+.Graphic{
     
+    font-family: 'Spinnaker', sans-serif;
+    color: #9D9D9D;
+    font-size: 2em;
+    padding-top:230px;
+    
+}
+
+
+
+
+.endtitle{
+  font-family: 'Spinnaker', sans-serif;
+    color: #9D9D9D;
+    font-size: 2em;
+    padding-top:230px;
 }
