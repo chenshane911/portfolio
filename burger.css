@@ -7,15 +7,15 @@ body.open:before {
 }
 body:before {
   content: "";
-  position: absolute;
-  background-color: #515151;
+  position: fixed;
+  background-color: #D75151;
   width: 100%;
   overflow: hidden;
   top: 0;
   left: 0;
   bottom: 0;
   visibility: hidden;
-  opacity: 0;
+  opacity: .9;
   transition: all 0.5s ease;
 }
 .burger {
@@ -38,6 +38,7 @@ body:before {
 .burger__button.open {
   border: 0px solid #fff;
   box-shadow: none;
+   z-index: 1;
 }
 .burger__button__icon {
   display: inline-block;
@@ -51,6 +52,7 @@ body:before {
   right: 0;
   transition: all 0.5s ease;
   transform: translateY(-1px);
+   z-index: 1;
 }
 .burger__button__icon:before,
 .burger__button__icon:after {
@@ -89,6 +91,7 @@ body:before {
   padding: 0 0 0 20px;
   position: absolute;
     right:0;
+   z-index: 2;
 }
 .burger__menu li {
   display: block;
@@ -103,11 +106,13 @@ body:before {
   text-decoration: none;
   color: #fff;
   font-size: 1.1rem;
-  font-family:  'Hind Vadodara', sans-serif;
-  font-weight: normal;
+  font-family: 'Spinnaker', sans-serif;
+  font-size: 2em;
   transition: all 0.4s ease;
   border-left: 0px solid transparent;
   padding-left: 0;
+   z-index: 2;
+ 
 }
 .burger__menu a:hover {
   padding-left: 30px;

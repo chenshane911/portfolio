@@ -180,9 +180,9 @@ footer{
 .fndetail{
     width:40vw;
     color: #9D9D9D;
-    font-size: 0.6em;
+    font-size: 0.3em;
     letter-spacing: 1.4px;
-    font-family: 'Hind Vadodara', sans-serif;
+    
     padding-top: 100px;
     line-height: 23px;
     white-space: normal;
@@ -207,4 +207,53 @@ footer{
     color: #9D9D9D;
     font-size: 2em;
     padding-top:230px;
+}
+
+
+
+
+a:hover {color:#E94646;}
+a:link {color:#716D6D;} 
+a:active {color:#716D6D;}
+a:visited {color:#716D6D;}
+
+
+
+
+
+
+.fnintro{
+  width:40vw;
+    color: #9D9D9D;
+    font-size: 0.3em;
+    letter-spacing: 1.4px;
+    
+    padding-top: 100px;
+    line-height: 23px;
+    white-space: normal;
+}
+
+
+.fnlogo{
+  width:16%;
+  float: right;
+  margin: 50px 230px 0 0;
+  opacity: .3;
+}
+
+.fnlogo:hover {
+  opacity: 1.0;
+}
+
+.imgfnlogo{
+  width:90%;
+  float: right;
+  margin: 50px 30px 0 0;
+  
+}
+
+
+.links{
+  font-family: 'Spinnaker', sans-serif;
+  font-size: .5em;
 }
