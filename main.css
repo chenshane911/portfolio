@@ -21,16 +21,17 @@ body{
   position: fixed;
   bottom: 20px;
   right: 128px;
+  display: none;
 }
 
 .imgtotop{
-  width:15%;
+  width:40px;
   float: right;
   opacity:.3;
 }
 
 .imgtotop:hover {
-  width:12%;
+  width:34px;
   float: right;
   opacity:1;
   transition: all 0.4s ease;
@@ -259,14 +260,6 @@ footer{
 
 
 
-a:hover {color:#E94646;}
-a:link {color:#716D6D;} 
-a:active {color:#716D6D;}
-a:visited {color:#716D6D;}
-
-
-
-
 
 
 .fnintro{
@@ -305,7 +298,7 @@ a:visited {color:#716D6D;}
 
 .links{
   font-family: 'Spinnaker', sans-serif;
-  font-size: .5em;
+  font-size: .9em;
   opacity: .4;
   color: #A9A9A9;
 }
@@ -313,6 +306,7 @@ a:visited {color:#716D6D;}
 
 
 .links:hover{
+  font-family: 'Spinnaker', sans-serif;
   opacity: 1.0;
   transition: all 0.4s ease;
   color: #D75151;
@@ -322,7 +316,7 @@ a:visited {color:#716D6D;}
 
 .shop{
   font-family: 'Spinnaker', sans-serif;
-  font-size: .5em;
+  font-size: .9em;
   opacity: .4;
   color: #A9A9A9;
 }
@@ -367,3 +361,46 @@ a:visited {color:#716D6D;}
   color: #A9A9A9;
   padding-top: 160px;
 }
+
+
+
+.UXrede{
+  font-family: 'Spinnaker', sans-serif;
+  font-size: 2.4em;
+  color: #A9A9A9;
+}
+
+.UXredetime{
+  font-family: 'Spinnaker', sans-serif;
+  font-size: 1.4em;
+  color: #A9A9A9;
+  padding-top: 160px;
+}
+
+
+
+.moreworks{
+  font-family: 'Spinnaker', sans-serif;
+  font-size: .9em;
+  opacity: .6;
+  color: #A9A9A9;
+}
+
+
+.moreworks:hover{
+  opacity: 1.0;
+  transition: all 0.4s ease;
+  color: #D75151;
+}
+
+
+
+.dorm{
+  width: 25vw;
+}
+
+
+.dorm4{
+  width: 73.6vw;
+}
+

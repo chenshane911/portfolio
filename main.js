@@ -33,3 +33,17 @@ $("#overlay").on('click', function() {
     $( "#overlay" ).removeClass('show');
 });
 
+
+
+
+$(window).scroll(function(){
+
+    if ($(this).scrollTop() === 0) {
+        $('.top').hide();
+    }
+    else {
+       $('.top').fadeIn();
+       
+    }
+
+});
