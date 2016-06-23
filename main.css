@@ -412,3 +412,15 @@ footer{
   opacity: .6;
   color: #A9A9A9;
 }
+
+.dormintro{
+    width:60vw;
+    color: #9D9D9D;
+    font-size: 0.3em;
+    letter-spacing: 1.4px;
+    
+    padding-top: 100px;
+    line-height: 23px;
+    white-space: normal;
+    font-family: 'Spinnaker', sans-serif; 
+}
