@@ -20,11 +20,11 @@ body{
 .top{
   position: fixed;
   bottom: 20px;
-  right: 123px;
+  right: 128px;
 }
 
 .imgtotop{
-  width:10%;
+  width:15%;
   float: right;
   opacity:.3;
 }
