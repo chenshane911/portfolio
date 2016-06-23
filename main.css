@@ -4,12 +4,38 @@ body{
 }
 
 
+
+.totop{
+  width: 100px;
+  float: right;
+  position: 
+}
+
 #container{
     padding: 0 130px;
     background: #080808;
-    
-    
 }
+
+
+.top{
+  position: fixed;
+  bottom: 20px;
+  right: 123px;
+}
+
+.imgtotop{
+  width:10%;
+  float: right;
+  opacity:.3;
+}
+
+.imgtotop:hover {
+  width:12%;
+  float: right;
+  opacity:1;
+  transition: all 0.4s ease;
+}
+
 
 .logo{
     width: 90px;
@@ -75,13 +101,43 @@ header{
 
 
 
-.behance{
+.behanceimg{
     width: 20px;
     float:right;
     padding: 10px;
     padding-right: 0;
+    opacity: .4;
 }
 
+.behanceimg:hover{
+    width: 20px;
+    float:right;
+    padding: 10px;
+    padding-right: 0;
+    opacity: 1;
+    transition: all 0.4s ease;
+}
+
+
+
+.facebookimg{
+   width: 20px;
+    float:right;
+    padding: 10px;
+    padding-right: 0;
+    opacity: .4;
+}
+
+
+
+.facebookimg:hover{
+    width: 20px;
+    float:right;
+    padding: 10px;
+    padding-right: 0;
+    opacity: 1;
+    transition: all 0.4s ease;
+}
 
 
 .fb{
@@ -190,15 +246,6 @@ footer{
 
 
 
-.Graphic{
-    
-    font-family: 'Spinnaker', sans-serif;
-    color: #9D9D9D;
-    font-size: 2em;
-    padding-top:230px;
-    
-}
-
 
 
 
@@ -239,10 +286,12 @@ a:visited {color:#716D6D;}
   float: right;
   margin: 50px 230px 0 0;
   opacity: .3;
+  
 }
 
 .fnlogo:hover {
   opacity: 1.0;
+  transition: all 0.4s ease;
 }
 
 .imgfnlogo{
@@ -256,4 +305,64 @@ a:visited {color:#716D6D;}
 .links{
   font-family: 'Spinnaker', sans-serif;
   font-size: .5em;
+  opacity: .4;
+  color: #A9A9A9;
+}
+
+
+
+.links:hover{
+  opacity: 1.0;
+  transition: all 0.4s ease;
+  color: #D75151;
+}
+
+
+
+.shop{
+  font-family: 'Spinnaker', sans-serif;
+  font-size: .5em;
+  opacity: .4;
+  color: #A9A9A9;
+}
+
+
+.shop:hover{
+  opacity: 1.0;
+  transition: all 0.4s ease;
+  color: #D75151;
+}
+
+
+
+
+
+.coummunity{
+  font-family: 'Spinnaker', sans-serif;
+  font-size: 2.4em;
+  color: #A9A9A9;
+}
+
+
+.cmtitle{
+  font-family: 'Spinnaker', sans-serif;
+  font-size: 1.4em;
+  color: #A9A9A9;
+  padding-top: 160px;
+}
+
+
+.graphic{
+  font-family: 'Spinnaker', sans-serif;
+  font-size: 2.4em;
+  color: #A9A9A9;
+    
+}
+
+
+.gratitle{
+  font-family: 'Spinnaker', sans-serif;
+  font-size: 1.4em;
+  color: #A9A9A9;
+  padding-top: 160px;
 }
