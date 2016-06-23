@@ -301,6 +301,7 @@ footer{
   font-size: .9em;
   opacity: .4;
   color: #A9A9A9;
+  text-decoration: none;
 }
 
 
@@ -319,6 +320,7 @@ footer{
   font-size: .9em;
   opacity: .4;
   color: #A9A9A9;
+  text-decoration: none;
 }
 
 
@@ -381,14 +383,15 @@ footer{
 
 .moreworks{
   font-family: 'Spinnaker', sans-serif;
-  font-size: .9em;
+  font-size: 1em;
   opacity: .6;
   color: #A9A9A9;
+  text-decoration: none;
 }
 
 
 .moreworks:hover{
-  opacity: 1.0;
+  opacity: 1.2;
   transition: all 0.4s ease;
   color: #D75151;
 }
@@ -411,6 +414,8 @@ footer{
   font-size: .9em;
   opacity: .6;
   color: #A9A9A9;
+  letter-spacing: .5px;
+  position: relative;
 }
 
 .dormintro{
