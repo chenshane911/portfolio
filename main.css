@@ -99,7 +99,7 @@ header{
   bottom:0px;
   animation-name:move;
   animation-iteration-count: infinite;  
-  animation-duration: .9s;
+  animation-duration: 1.4s;
 }
 
 @keyframes move{
@@ -440,4 +440,22 @@ footer{
     line-height: 23px;
     white-space: normal;
     font-family: 'Spinnaker', sans-serif; 
+}
+
+
+
+.bgimg{
+  width: 100vw;
+  position: absolute
+  
+}
+
+.headerimg{
+ 
+  height: 86vh;
+  position: absolute;
+  bottom:0px;
+  right: 16%;
+  opacity: .7;
+  
 }
