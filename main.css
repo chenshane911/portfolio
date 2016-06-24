@@ -93,9 +93,21 @@ header{
 }
 
 .arrow{
-    width: 40px;
-    float:left;
-    position: relative;
+  width: 40px;
+  position:relative;
+  left: 0px;
+  bottom:0px;
+  animation-name:move;
+  animation-iteration-count: infinite;  
+  animation-duration: .9s;
+}
+
+@keyframes move{
+  from { bottom:0px;}
+  to { bottom:7px;}
+  from { opacity:.3;}
+  to { opacity: 1;}
+   
 }
 
 
@@ -103,7 +115,7 @@ header{
 
 
 .behanceimg{
-    width: 20px;
+    width: 30px;
     float:right;
     padding: 10px;
     padding-right: 0;
@@ -111,7 +123,7 @@ header{
 }
 
 .behanceimg:hover{
-    width: 20px;
+    width: 30px;
     float:right;
     padding: 10px;
     padding-right: 0;
@@ -122,7 +134,7 @@ header{
 
 
 .facebookimg{
-   width: 20px;
+   width: 30px;
     float:right;
     padding: 10px;
     padding-right: 0;
@@ -132,7 +144,7 @@ header{
 
 
 .facebookimg:hover{
-    width: 20px;
+    width: 30px;
     float:right;
     padding: 10px;
     padding-right: 0;

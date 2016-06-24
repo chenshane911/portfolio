@@ -17,11 +17,12 @@ body:before {
   visibility: hidden;
   opacity: .9;
   transition: all 0.5s ease;
-  z-index: 0;
+  z-index: 1;
 }
 .burger {
   float: right;
     position: relative;
+    z-index: 1;
 }
 .burger__button {
   display: block;
@@ -40,7 +41,7 @@ body:before {
 .burger__button.open {
   border: 0px solid #fff;
   box-shadow: none;
-   z-index: 1;
+ 
 }
 .burger__button__icon {
   display: inline-block;
@@ -54,7 +55,7 @@ body:before {
   right: 0;
   transition: all 0.5s ease;
   transform: translateY(-1px);
-   z-index: 1;
+  
 }
 .burger__button__icon:before,
 .burger__button__icon:after {
@@ -70,7 +71,7 @@ body:before {
 }
 .burger__button__icon:before {
   bottom: 10px;
-  z-index: 2;
+  z-index: 1;
 }
 .burger__button__icon:after {
   top: 10px;
@@ -94,7 +95,7 @@ body:before {
   padding: 0 0 0 20px;
   position: absolute;
     right:0;
-   z-index: 1;
+  
 }
 .burger__menu li {
   display: block;
@@ -103,7 +104,7 @@ body:before {
   visibility: hidden;
   transition: all 0.5s ease;
   transform: translateX(-400px);
-  z-index: 1;
+ 
 }
 .burger__menu a {
   display: block;
@@ -115,7 +116,7 @@ body:before {
   transition: all 0.4s ease;
   border-left: 0px solid transparent;
   padding-left: 0;
-   z-index: 2;
+   z-index: 1;
  
 }
 .burger__menu a:hover {
