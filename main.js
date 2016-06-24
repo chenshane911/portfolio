@@ -1,6 +1,6 @@
 let burger = document.getElementById("burger-button");
 
-burger.addEventListener("click", (e) => {
+burger.addEventListener("click", function(e) {
   e.preventDefault();
   document.body.classList.toggle("open");
   burger.classList.toggle("open");
@@ -29,6 +29,10 @@ $(".photo-gallery a").on('click', function(event) {
     $overlay.addClass('show');
 });
 
+
+
+
+
 $("#overlay").on('click', function() {
     $( "#overlay" ).removeClass('show');
 });
@@ -47,3 +51,14 @@ $(window).scroll(function(){
     }
 
 });
+
+
+
+$(".burger__menu").on('click', function() {
+    document.body.classList.toggle("open");
+    burger.classList.toggle("open");
+});
+
+
+
+

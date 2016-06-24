@@ -489,7 +489,7 @@ footer{
   font-size: 3.4em;
   letter-spacing: 1.2px;
   padding: 20px;
-  opacity: .8;
+  opacity: .3;
   
 }
 
@@ -512,6 +512,19 @@ footer{
 
 
 .cheeselink:hover{
+  text-decoration: none;
+  transition: all 0.4s ease;
+  color: #D75151;
+}
+
+.jerrylink{
+  
+  text-decoration: none;
+  color: #8D8D8D;
+}
+
+
+.jerrylink:hover{
   text-decoration: none;
   transition: all 0.4s ease;
   color: #D75151;
