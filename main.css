@@ -520,11 +520,27 @@ footer{
 .jerrylink{
   
   text-decoration: none;
-  color: #8D8D8D;
+ 
+   color: #8D8D8D;
 }
 
 
 .jerrylink:hover{
+  text-decoration: none;
+  transition: all 0.4s ease;
+  color: #D75151;
+}
+
+
+
+.fnlink{
+  text-decoration: none;
+   color: #8D8D8D;
+}
+
+
+
+.fnlink:hover{
   text-decoration: none;
   transition: all 0.4s ease;
   color: #D75151;
