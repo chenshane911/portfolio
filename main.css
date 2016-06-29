@@ -178,6 +178,26 @@ header{
 }
 
 
+.mediumimg{
+   width: 30px;
+    float:right;
+    padding: 10px;
+    padding-right: 0;
+    opacity: .4;
+}
+
+
+
+.mediumimg:hover{
+    width: 30px;
+    float:right;
+    padding: 10px;
+    padding-right: 0;
+    opacity: 1;
+    transition: all 0.4s ease;
+}
+
+
 
 .fb{
     width: 20px;
